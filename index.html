@@ -4,7 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="base.css" rel="stylesheet" style="text/css">
-    <script src="base.js"></script>
+    <script>import Cookies from "https://cdn.skypack.dev/js-cookie@3.0.1";
+
+$('#btnCambio').click(function(){
+  $('.doge').toggleClass('skin1 skin2');
+});
+
+var valorSkin = $('body').attr('class');
+
+Cookies.set('skinSelect', valorSkin, {expires:365});
+Cookies.get('skinSelect');</script>
   </head>
 </html>
 <body>
