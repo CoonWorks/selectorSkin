@@ -1,0 +1,22 @@
+body{
+  background-color:#505050;
+}
+
+#btnCambio{
+  height:50px;
+  width:50px;
+  background-color:#500050;
+}
+
+.doge{
+  height:50px;
+  width:50px;
+}
+
+.skin1{
+  background-color:#000000;
+}
+
+.skin2{
+  background-color:#FFFFFF;
+}
